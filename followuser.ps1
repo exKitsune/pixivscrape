@@ -7,7 +7,7 @@ param(
 
 If($help) {
 	echo "Specify where pixivfollowers.txt is with -followdir"
-	echo "Do -show:$true to see"
+	echo "Do -show to see"
 	Read-Host -Prompt "Press Enter to continue" ; exit 
 }
 
